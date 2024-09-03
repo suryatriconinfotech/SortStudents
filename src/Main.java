@@ -65,40 +65,40 @@ class StudentSorter {
 
 public class Main {
     public static void main(String[] args) {
-        //students
-        Student[] students = {
+        //student1s
+        Student[] student1s = {
                 new Student("Alice", 3, 85.5),
                 new Student("Bob", 1, 90.3),
                 new Student("Charlie", 2, 78.9)
         };
 
         System.out.println("Before sorting:");
-        for (Student student : students) {
-            System.out.println(student);
+        for (Student student1 : student1s) {
+            System.out.println(student1);
         }
 
         // Sort by name
-        StudentSorter.sortStudents(students, "name");
+        StudentSorter.sortStudents(student1s, "name");
 
         System.out.println("\nAfter sorting by name:");
-        for (Student student : students) {
-            System.out.println(student);
+        for (Student student1 : student1s) {
+            System.out.println(student1);
         }
 
         // Sort by grade
-        StudentSorter.sortStudents(students, "grade");
+        StudentSorter.sortStudents(student1s, "grade");
 
         System.out.println("\nAfter sorting by grade:");
-        for (Student student : students) {
-            System.out.println(student);
+        for (Student student1 : student1s) {
+            System.out.println(student1);
         }
 
         // Sort by ID
-        StudentSorter.sortStudents(students, "id");
+        StudentSorter.sortStudents(student1s, "id");
 
         System.out.println("\nAfter sorting by ID:");
-        for (Student student : students) {
-            System.out.println(student);
+        for (Student student1 : student1s) {
+            System.out.println(student1);
         }
     }
 }
