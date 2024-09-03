@@ -46,7 +46,7 @@ class GenericComparator<T extends Comparable<T>> implements Comparator<Student1>
     }
 }
 
-// Main class to demonstrate sorting
+// Normal class to demonstrate sorting
 public class Generic {
     public static void main(String[] args) {
         List<Student1> student1s = new ArrayList<>();
