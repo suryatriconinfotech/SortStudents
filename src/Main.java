@@ -65,6 +65,7 @@ class StudentSorter {
 
 public class Main {
     public static void main(String[] args) {
+        //students
         Student[] students = {
                 new Student("Alice", 3, 85.5),
                 new Student("Bob", 1, 90.3),
