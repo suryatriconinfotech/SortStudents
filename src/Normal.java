@@ -63,7 +63,7 @@ class StudentSorter {
     }
 }
 
-public class Main {
+public class Normal {
     public static void main(String[] args) {
         //student1s
         Student[] student1s = {
